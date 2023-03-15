@@ -1,0 +1,24 @@
+.navbar {
+	background-color: transparent;
+	z-index: 1;
+	padding: 20px 10px;
+}
+
+.navbar-brand h1 {
+	color: #fff;
+/*	position: relative;*/
+	font-size: 40px;
+	left: 20px;
+}
+
+.navbar-brand h1:hover {
+	color: red;
+}
+
+
+.nav-link {
+	color: #fff !important;
+	margin-right: 50px;
+	font-size: 18px;
+	letter-spacing: 1px;
+}
