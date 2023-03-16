@@ -2,6 +2,7 @@ import React from 'react'
 import '../styles/Home.css'
 import '../styles/Pages.css'
 import aboutPic from '../images/about-pic.jpg'
+import ProjectCarousel from '../components/Carousel'
 
 function Home() {
 	return (
@@ -13,6 +14,8 @@ function Home() {
 				</div>
 				<button className='animated-button'>Button</button>
 			</div>
+
+{/*-----------Section Two About----------------*/}
 
 			<div className='section-two'>
 				<div className='container'>
@@ -40,6 +43,17 @@ function Home() {
 					</div>
 				</div>
 			</div>
+
+{/*-----------Section Three Projects--------*/}
+
+			
+				<div align='center' className='project-section-title'>
+					<p>My work</p>
+					<h1>Latest Projects</h1>
+				</div>
+				<ProjectCarousel />
+			
+
 		</>
 	)
 }
