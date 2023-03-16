@@ -1,6 +1,7 @@
-body {
-	background-color: #ccc;
-}
+ body {
+ 	background-color: whitesmoke;
+ }
+
 
 .multyPageWrap {
 	width: 100%;
@@ -36,7 +37,7 @@ body {
 	position: absolute;
 	height: 30px;
 	width: 30px;
-	border: 2px solid white;
+	border: 2px solid #aaa;
 	bottom: 0;
 	left: 0;
 	border-right: none;
@@ -51,7 +52,7 @@ body {
 	position: absolute;
 	height: 30px;
 	width: 30px;
-	border: 2px solid white;
+	border: 2px solid #aaa;
 	top: 0;
 	right: 0;
 	border-left: none;
@@ -64,7 +65,7 @@ body {
 .animated-button:hover:before {
 	height: 100%;
 	width: 100%;
-	border: 2px solid white;
+	border: 2px solid #aaa;
 	border-right: none;
 	border-top: none;
 	border-radius: 2px;
@@ -74,7 +75,7 @@ body {
 .animated-button:hover:after {
 	height: 100%;
 	width: 100%;
-	border: 2px solid white;
+	border: 2px solid #aaa;
 	border-left: none;
 	border-bottom: none;
 	border-radius: 2px;

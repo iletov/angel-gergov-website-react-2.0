@@ -7,8 +7,8 @@ function NavbarComponent() {
 	return (
 		<div>
 		{['xl'].map((expand) => (
-			<Navbar key={expand} expand={expand} className="navbar shadow-sm">
-          		<Navbar.Brand href="#"><h1>LOGO</h1></Navbar.Brand>
+			<Navbar fixed='top' key={expand} expand={expand} className="navbar shadow-sm" variant="dark">
+          		<Navbar.Brand href="#"><h1>LOGO<span>.</span></h1></Navbar.Brand>
           		
             		
             		<Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />

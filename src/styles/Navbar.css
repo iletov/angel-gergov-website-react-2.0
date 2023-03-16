@@ -1,7 +1,7 @@
 .navbar {
 	background-color: transparent;
 	z-index: 1;
-	padding: 20px 10px;
+	padding: 20px 25px;
 }
 
 .navbar-brand h1 {
@@ -9,16 +9,48 @@
 /*	position: relative;*/
 	font-size: 40px;
 	left: 20px;
+	transition: .2s;
 }
 
-.navbar-brand h1:hover {
-	color: red;
+.navbar-brand span {
+	color: #dfa667;
 }
-
 
 .nav-link {
-	color: #fff !important;
+	color: #fff;
 	margin-right: 50px;
 	font-size: 18px;
 	letter-spacing: 1px;
+}
+
+.nav a {
+	color: #fff;
+}
+
+.nav a:focus {
+	color: #fff !important;
+	
+}
+
+.nav a:hover {
+	color: #aaa;
+}
+
+.nav a:after {
+	content: '';
+	width: 0px;
+	height: 2px;
+	background-color: #dfa667;
+	margin: auto;
+	display: block;
+	transition: .3s;
+}
+
+.nav a:hover:after {
+	width: 100%;
+	transition: .3s;
+}
+
+.nav a:focus:after {
+	width: 100%;
 }
