@@ -3,6 +3,7 @@ import Carousel from 'react-multi-carousel'
 import 'react-multi-carousel/lib/styles.css'
 import { projectsArray } from '../helpers/projectsStore'
 import ProjectCard from '../components/ProjectCard'
+import '../styles/Carousel.css'
 
 function projectCarousel() {
 	const responsive = {
@@ -25,12 +26,15 @@ function projectCarousel() {
   }
 };
 
+
+
 	return (
 		<>
 			<Carousel responsive={responsive}
 				infinite={true}
 				removeArrowOnDeviceType={['tablet', 'mobile']}
-				>
+        ssr={true}
+        >
 			{projectsArray.map((item, i) =>(
 				<ProjectCard projectItem={item} />
 				))}

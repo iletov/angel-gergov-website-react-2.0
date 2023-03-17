@@ -1,10 +1,18 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import '../styles/Home.css'
 import '../styles/Pages.css'
 import aboutPic from '../images/about-pic.jpg'
 import ProjectCarousel from '../components/Carousel'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
+
 
 function Home() {
+	useEffect(() => {
+		AOS.init({duration: 2000})
+	}, [])
+
 	return (
 		<>
 			<div className='homeWrap'>
@@ -24,7 +32,7 @@ function Home() {
 							<div className='about-text'>
 								<div className='section-title'>
 									<p>who we are</p>
-									<h1>Lorem ipsum dolor sit amet Sed ut perspiciatis unde</h1>
+									<h1 >Lorem ipsum dolor sit amet Sed ut perspiciatis unde</h1>
 								</div>
 								<div className='about-para-text'>
 									<p className='fw-light'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -48,8 +56,8 @@ function Home() {
 
 			
 				<div align='center' className='project-section-title'>
-					<p>My work</p>
-					<h1>Latest Projects</h1>
+					<p data-aos="fade-right">My work</p>
+					<h1 data-aos="fade-right">Latest Projects</h1>
 				</div>
 				<ProjectCarousel />
 			
