@@ -15,7 +15,7 @@ function ProjectCard(props) {
 			<Card onClick={() => navigate(project.urls)} 
 				style={{ borderRadius: '1px' }} className='my-5 mx-2' >
 				
-				<Card.Img 
+				<Card.Img onClick={() => navigate(project.urls)}
 					style={{ 
 						height: '32rem',
 						borderRadius: '1px'

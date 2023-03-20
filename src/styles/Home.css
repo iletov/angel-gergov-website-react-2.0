@@ -97,7 +97,7 @@
 .about-button {
 	color: #000 !important;
 	font-weight: 900;
-	font-size: 18px !important;
+	font-size: 18px !important ;
 	top:25px !important;
 }
 
@@ -160,4 +160,20 @@
 .project-section-title p {
 	color: #dfa667;
 	font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+	
+	.animated-text {
+		height: 60px;
+	}
+
+	.line {
+		font-size: 20px;
+	}
+
+	.about-button {
+		font-size: 14px !important;
+	}
+
 }

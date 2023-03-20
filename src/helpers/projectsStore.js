@@ -10,25 +10,25 @@ const projectsArray = [
 		image: img1,
 		paragraph: 'INTERIOR',
 		title: 'PROJECT ONE',
-		urls: '/projects',
+		urls: '/project-one',
 	},
 	{
 		image: img2,
 		paragraph: 'INTERIOR',
 		title: 'PROJECT TWO',
-		urls: '/projects',
+		urls: '/project-two',
 	},
 	{
 		image: img3,
 		paragraph: 'INTERIOR',
 		title: 'PROJECT THREE',
-		urls: '/projects',
+		urls: '/project-three',
 	},
 	{
 		image: img4,
 		paragraph: 'INTERIOR',
 		title: 'PROJECT FOUR',
-		urls: '/projects',
+		urls: '/project-four',
 	},
 
 ]
