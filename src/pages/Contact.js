@@ -21,12 +21,15 @@ function Contact() {
 
 	return (
 		<>
-			
+			<div className='multyPageWrap contact-wrapper'>
+				<h1>Contact Me</h1>
+			</div>
+		
 			<div className="contact">
 					<div 
 						className='leftSide'
-						style={{ backgroundImage: `url(${contactPage})` }}
-						></div>
+						style={{ backgroundImage: `url(${contactPage})` }} >
+					</div>
 					<div className='rightSide'>
 						<h1> Contact Me</h1>
 

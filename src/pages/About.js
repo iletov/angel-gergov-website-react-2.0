@@ -2,11 +2,14 @@ import React from 'react'
 import '../styles/Pages.css'
 import '../styles/About.css'
 import { Container, Row, Col } from 'react-bootstrap'
+import { useNavigate } from 'react-router-dom'
 import mission from '../images/services-5.png.webp'
 import vision from '../images/services-6.png.webp'
 import profilePic from '../images/profile-pic.jpg'
 
 function About() {
+	const navigate = useNavigate()
+
 	return (
 		<>
 			<div className='multyPageWrap'>
@@ -56,6 +59,7 @@ function About() {
 				<div className='multyPageWrap second-about'>
 					<p>why choose me</p>
 					<h1>My ability to bring outstanding results</h1>
+					<button className='animated-button about-btn' onClick={()=> navigate('/contact')}>Contact me</button>
 				</div>
 
 				{/*------------section two-------------*/}

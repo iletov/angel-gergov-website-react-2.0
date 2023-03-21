@@ -173,8 +173,12 @@
 		font-size: 20px;
 	}
 
+	.about-pic {
+	padding-left: 0px;
+	}
+
 	.about-button {
-		font-size: 14px !important;
+		font-size: 12px !important;
 	}
 
 }

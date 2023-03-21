@@ -29,13 +29,23 @@
 /*-----section two------*/
 
 .second-about {
-	background: rgba(0, 0, 0, .6)url(../images/img3.jpg) no-repeat;
+	background: rgba(0, 0, 0, .7)url(../images/img3.jpg) no-repeat;
 	background-position: 0% 60%;
 	background-size: cover;
 	background-blend-mode: darken;
+	display: flex;
+	flex-direction: column;
+	text-transform: uppercase;
 }
 
+.second-about p {
+	font-size: 18px;
+	color: #dfa667;
+}
 
+.about-btn {
+	top: 3rem;
+}
 
 .about-second-row {
 padding: 6rem 0 ;
@@ -50,6 +60,8 @@ padding: 6rem 0 ;
 	position: relative;
 	left: 15%;
 	}
+
+
 
 @media only screen and (max-width: 800px) {
 	.about-two-right img {
