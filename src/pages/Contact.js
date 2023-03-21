@@ -28,7 +28,7 @@ function Contact() {
 						style={{ backgroundImage: `url(${contactPage})` }}
 						></div>
 					<div className='rightSide'>
-						<h1> Contact Us</h1>
+						<h1> Contact Me</h1>
 
 	        			<form ref={form} onSubmit={sendEmail} id="contact-form" method="POST">
 			          	<label htmlFor="name" >Full Name</label>

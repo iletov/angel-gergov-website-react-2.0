@@ -72,6 +72,7 @@
 
 .row {
 	padding-top: 8rem;
+	padding-bottom: 6rem;
 }
 
 .about-text {
@@ -89,6 +90,7 @@
 
 .about-para-text {
 	font-family: 'Montserrat', sans-serif;
+	line-height: 26px;
 	font-size: 18px;
 	padding-top: 50px;
 	padding-bottom: 50px;
@@ -153,7 +155,6 @@
 /*-----section three projects----*/
 
 .project-section-title {
-	padding-top: 6rem;
 	text-transform: uppercase;
 }
 

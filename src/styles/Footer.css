@@ -7,24 +7,28 @@
 
 
 .footerRow {
-	padding-top: 50px;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	font-family: 'Montserrat', sans-serif;
+
 }
 
 .footerRow h4 {
 	padding-bottom: 25px;
 	font-size: 20px;
+
 }
 
 
 
 .footerRow a {
 	font-size: 14px;
-	padding-top: 5px;
+	line-height: 35px;
 	display: flex;
 	flex-direction: column;
 	text-decoration: none;
 	color: #fff;
-	font-weight: 300;
+	font-weight: 500;
 	max-width: 60px;
 	transition: .2s ease;
 }
@@ -59,6 +63,11 @@
 	margin: 0px;
 	color: #999;
 	transition: .4s;
+}
+
+.secondRow {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
 }
 
 .secondRow p {

@@ -1,6 +1,6 @@
 import React, { useState} from 'react'
 import '../styles/Navbar.css'
-import { Navbar, Nav, Container, Offcanvas } from 'react-bootstrap'
+import { Navbar, Nav, Offcanvas } from 'react-bootstrap'
 import { NavLink } from 'react-router-dom'
 
 function NavbarComponent() {

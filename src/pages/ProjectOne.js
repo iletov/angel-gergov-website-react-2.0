@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import {Row, Col, Card, Container } from 'react-bootstrap'
+import {Row, Container } from 'react-bootstrap'
 import CloseIcon from '@mui/icons-material/Close';
 import '../styles/ProjectOne.css'
 import img1 from '../images/img1.jpg'
@@ -47,7 +47,7 @@ function ProjectOne() {
 			</div>
 			
 			<div className={model? "model open" : "model"}>
-				<img src={tempimgSrc} />
+				<img src={tempimgSrc} alt='...' />
 				<CloseIcon onClick={() => setModel(false)}/>	
 			</div>
 
@@ -59,7 +59,7 @@ function ProjectOne() {
 				{data.map((item, index)=> {
 					return (
 						<div className='pics' onClick={() =>getImg(item.imgSrc)} >
-							<img src={item.imgSrc} />
+							<img src={item.imgSrc} alt='...' />
 						</div>
 					)
 				})}

@@ -47,7 +47,7 @@ function Home() {
 						<div className='col-lg-6'>
 							<div className='about-pic'>
 								<div className='about-pic-inner'>
-									<img src={aboutPic} alt />
+									<img src={aboutPic} alt='...' />
 								</div>
 							</div>
 						</div>
