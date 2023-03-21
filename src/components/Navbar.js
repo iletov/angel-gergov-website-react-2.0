@@ -26,7 +26,7 @@ function NavbarComponent() {
 			 	expand={expand}
 			 	 
 			 	>
-          		<Navbar.Brand href="#"><h1>LOGO<span>.</span></h1></Navbar.Brand>
+          		<Navbar.Brand href="#"><h1>A.Gergov<span>.</span></h1></Navbar.Brand>
           		
             		
             		<Navbar.Toggle className='navToggle' aria-controls={`offcanvasNavbar-expand-${expand}`} />
@@ -38,7 +38,7 @@ function NavbarComponent() {
 			            >
 		              <Offcanvas.Header closeButton >
 		                <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-		                  LOGO
+		                  A.Gergov
 		                </Offcanvas.Title>
 		              </Offcanvas.Header>
 
@@ -53,7 +53,6 @@ function NavbarComponent() {
                			 </Nav>
              		 </Offcanvas.Body>
            			</Navbar.Offcanvas>
-          		
         	</Navbar>
 			))}
 		</div>
