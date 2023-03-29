@@ -26,7 +26,7 @@ function NavbarComponent() {
 			 	expand={expand}
 			 	 
 			 	>
-          		<Navbar.Brand href="#"><h1>A.Gergov<span>.</span></h1></Navbar.Brand>
+          		<Navbar.Brand href="#"><h1>AGergov<span>.</span></h1></Navbar.Brand>
           		
             		
             		<Navbar.Toggle className='navToggle' aria-controls={`offcanvasNavbar-expand-${expand}`} />
