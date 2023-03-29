@@ -3,9 +3,12 @@ Single Page Application created to present personel projects to potential client
 
 ## Features
 - Beatiful responsive web site.
-- All projects are displayed on the home page through carousel and link to specific gallare
-- About me page
-- Active contact page
+- All projects are displayed on the home page through carousel and link to specific gallare.
+- About me page.
+- Active contact page using EmailJS.
+
+## Topics
+- React JS, HTML, CSS, BootStrap, AOS, EmailJS.
 
 
 https://a-gergov-8g3r.onrender.com
