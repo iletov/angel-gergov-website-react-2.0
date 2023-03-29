@@ -1,5 +1,5 @@
-# Getting Started with Create React App
+# Angel Gergov - Machine Engeneere and Project Manager
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Single Page Application
 
 https://a-gergov-8g3r.onrender.com
